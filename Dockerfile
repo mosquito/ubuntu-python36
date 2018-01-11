@@ -10,7 +10,7 @@ RUN apt-get install -y python3 python3-pip python3-virtualenv make
 RUN apt-get install -y build-essential git
 
 # Install headers for useful libraries
-RUN apt-get install -y
+RUN apt-get install -y \
     libacl1-dev \
     libfreetype6-dev \
     libgdal-dev \
